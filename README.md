@@ -56,7 +56,7 @@ $form = ActiveForm::begin([
     Html::submitButton('Submit', [
         // optional, will show the value of `data-disabled-text` attribute
         // while handling the validation and submit
-        'data' => ['disable-text' => 'Please Wait']
+        'data' => ['disabled-text' => 'Please Wait']
     ])
 
 $form->end();
