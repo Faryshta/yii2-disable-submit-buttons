@@ -11,7 +11,7 @@ class ActiveFormDisableSubmitButtonsAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = "@faryshta/disable-submit-buttons/js";
+    public $sourcePath = "@vendor/faryshta/yii2-disable-submit-buttons/js";
 
     /**
      * @inheritdoc
