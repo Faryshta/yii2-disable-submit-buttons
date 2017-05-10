@@ -1,7 +1,7 @@
 Faryshta Yii2 Disable Buttons
 =========================
 
-[![Latest Stable Version](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/v/stable)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons) [![Total Downloads](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/downloads)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons) [![Latest Unstable Version](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/v/unstable)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttonsr) [![License](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/license)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons)
+[![Latest Stable Version](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/v/stable)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons) [![Total Downloads](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/downloads)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons) [![Latest Unstable Version](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/v/unstable)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons) [![License](https://poser.pugx.org/faryshta/yii2-disable-submit-buttons/license)](https://packagist.org/packages/faryshta/yii2-disable-submit-buttons)
 
 Yii2 asset to automatically disable submit buttons on Yii2 [ActiveForm](http://www.yiiframework.com/doc-2.0/yii-widgets-activeform.html).
 
@@ -25,13 +25,13 @@ to the `require` section of your `composer.json` file.
 
 ## Register Asset
 
-Register the `faryshta\assets\ActiveFormDisableSubmitButonsAsset`, preferably on your `AppAsset` dependencies
+Register the `faryshta\assets\ActiveFormDisableSubmitButtonsAsset`, preferably on your `AppAsset` dependencies
 
 ```php
 class AppAsset extends yii\web\AssetBundle
 {
     public $depends = [
-        'faryshta\\assets\\ActiveFormDisableSubmitButonsAsset',
+        'faryshta\\assets\\ActiveFormDisableSubmitButtonsAsset',
         // other dependencies
     ];
 }
