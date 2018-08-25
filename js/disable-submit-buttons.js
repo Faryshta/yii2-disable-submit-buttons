@@ -10,8 +10,8 @@ $('body').on('beforeValidate', 'form.disable-submit-buttons', function (e) {
       $this.html($this.data('disabled-text'));
     }
   });
-}).on('afterValidate', 'form.disable-submit-buttons', function (e) {
-  if ($(this).find('.has-error').length > 0) {
+}).on('afterValidate', 'form.disable-submit-buttons', function (e, msgs, errs) {
+  if (errs.length > 0) {
     $(':input[type="submit"]', this).removeAttr('disabled');
     $(':input[type="submit"][data-disabled-text]', this).each(function (i) {
       var $this = $(this)
